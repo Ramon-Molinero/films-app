@@ -35,7 +35,6 @@ export class Tab1Page implements OnInit {
     //   console.log(this.moviesOfLastMoth);
     // });
 
-    this.moviesOfLastMoth = (await this.moviesService.getLastMoviesPromise()).results;
-    
+    this.moviesOfLastMoth = (await this.moviesService.getLastMoviesPromise()).results;    
   }
 }

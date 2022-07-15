@@ -1,11 +1,12 @@
 import { Pipe, PipeTransform } from '@angular/core';
+import { environment } from '../../environments/environment';
 
 @Pipe({
   name: 'imageOfMovie'
 })
 export class ImageOfMoviePipe implements PipeTransform {
 
-  private url: string = 'https://image.tmdb.org/t/p';
+  private url: string = environment.imgPath;
   
   transform(image: string, size: string = 'w500'): string {
 
