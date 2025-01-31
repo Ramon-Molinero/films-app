@@ -1,3 +1,8 @@
+<center>
+  <a href="https://angular.io/" target="blank"><img src="https://angular.io/assets/images/logos/angular/angular.svg" width="120" alt="Angular Logo" /></a>
+  <a href="https://ionicframework.com/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ionic_Logo.svg/1280px-Ionic_Logo.svg.png" width="290" alt="Ionic Logo" /></a>
+</center>
+
 # Films - Aplicación de Películas con Ionic y Angular
 
 Aplicación móvil híbrida desarrollada con **Ionic** y **Angular**, que permite a los usuarios explorar películas populares, buscar títulos y gestionar una lista de favoritos. Utiliza **The Movie Database (TMDB)** como fuente de datos, integrando funcionalidades como navegación por pestañas, filtros y almacenamiento local.
